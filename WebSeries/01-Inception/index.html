@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Hello World using Plain HTML!!!</h1> <!-- Using plain HTML -->
+
+        <!-- Hello World! using Vanilla JS -->
+        <div id="root-js"></div>
+        
+        <!-- Hello World! using React -->
+        <div id="root-react"></div>
+        
+        <script src="" async defer></script>
+
+        <!-- creating HELLO WORLD using Vanilla JS -->
+        <script>
+            const vanilla_js = () => {
+                // creating html element
+                const heading = document.createElement('h1')
+                // adding text into newly created element
+                heading.innerHTML = `
+                    <span style="color: red">Hello World using Vanilla JS!!!</span>
+                `;
+
+                // getting element from DOM that has id of root
+                const root = document.getElementById("root-js");
+                // appending newly created element to the root
+                root.appendChild(heading);
+            }
+            vanilla_js();
+
+        </script>
+
+        <!-- REACT CDNs -->
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> <!-- To get the core react -->
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> <!-- To get the react for manipulating DOM -->
+        
+        <!-- create HELLO WORLD using React -->
+        <script>
+            const heading = React.createElement("h1", {}, "Hello World using React!!");  // creating an element
+            const headingWithChild = React.createElement("h1", {}, React.createElement("span", {}, "Hello World using React with Child!!"));  // creating an element with a child
+            const root = ReactDOM.createRoot(document.getElementById("root-react"));    // creating a root by accessing the element with id root-react
+            // root.render(heading); 
+            root.render(headingWithChild); 
+        </script>
+        <script src="./App.js"></script>
+
+    </body>
+</html>
