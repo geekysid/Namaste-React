@@ -3,14 +3,15 @@
 **CDN**: Content delivery network.
 
 **CROSSORIGIN**: letting browser know that we are expecting data and allows CORS to fetch data from the link mentioned in src.
-package.json: it is a configuration for NPM
+
+**package.json**: it is a configuration for NPM
 We have 2 types of dependency that an app has. One is Dev dependency (generally required in development phase) and other is Normal dependency.
 
 ### Episode 02
 
 React does not makes an App fast on it own. It needs help from some extra packages to become fast.
 
-**NPM**: It is not Node Package Manager but anything other than node package manager. It is a repository where all modules/package resides and we ca download/install those package to utilize them in our project.
+**NPM**: It is everything but not Node Package Manager. It is a repository where all modules/package resides and we can download/install those package to utilize them in our project.
 
 **package.json**: is a configuration for npm. It keeps track of what dependencies are required for the app to run and also what version of dependencies. Package and dependency is same thing.
 
@@ -22,13 +23,13 @@ React does not makes an App fast on it own. It needs help from some extra packag
 
 - ^ will update all minor and patch update. for example if our current version is 2.4.2, then using ^, our package will update to all version greater than 2.4.2, for example 2.4.5 or 2.5 etc, but less than version 3.0.0. Used as default notation. Generally the version is read as major:minor:patch (4:1:2). Tilda (~) is only for patch update and Carrot (^) is for minor update.
 
-- ~ is basically used for approximately equivalent version. It is mean for bug fixes or patch updates. if our current version is 2.4.2, then we can update to version greater than 2.4.2 and less than 2.5 , for example, 2.4.3, 2.4.3.5, etc
+- ~ is basically used for approximately equivalent version. It is meant for bug fixes or patch updates. if our current version is 2.4.2, then we can update to version greater than 2.4.2 and less than 2.5 , for example, 2.4.3, 2.4.3.5, etc
 
 - **package-lock.json**: It keeps track of exact version of dependencies as compare to the package.json that contains details of dependencies up to which it can be upgraded using ^ and ~. Package-lock.json also keep track of all dependencies and their exact version on which our dependencies depend.
 
 - **Transative Dependencies**: The dependencies onw which our dependencies depends are called transative dependencies.
 
-- It is important to put package.json and package-lock.json on github. package-lock.json is as important as package.json as it contains exact version of dependencies and dependencies of dependencies.
+- It is important to put package.json and package-lock.json on github. package-lock.json is as important as package.json because it contains exact version of dependencies and dependencies of dependencies.
 
 - We can start/ignite our app using parcel by below command. Now when we make any changes to the code, it will be automatically update our app in browserlist
   `npx parcel index.html`
@@ -69,3 +70,51 @@ React does not makes an App fast on it own. It needs help from some extra packag
   "last 2 version", // will work perfectly on lats 2 version of all browsers
   "cover 95.5% of US", // will work perfectly on all browsers and its version so that 95.5% of all people in US can access it pefectly
 ]`
+
+### Episode 03
+
+- JSX is not a part of react. JSX is different and React is different.
+
+- We are write React without JSX but it is easier when we use jsx.
+
+- JSX is not HTML but is HTML like syntax. Infact, JSX is more closer to XML lie syntax. JSX syntax looks like HTML/XML.
+
+- In the core of React, we use createElement to create an element. But it is complex and not developer friendly. So we use JSX from which we can create react element when the code is compiled.
+
+- JSX is not a pure javascript as it is not understandable by js engine. The JSX before going to JS engine, it is transpiled (converted) to react object by babel, that can be understandable bby JS engine.
+
+- Generally we have 2 types of component in react,Class based component (old way not not used anymore), functional based component(new way).
+
+- Component name always start with capital letter
+
+- We can write a component inside a JSX:
+
+a `(
+    <div>
+      <ComponentName />
+    </div>
+  )`
+
+- We can render a component inside a functional component in 3 ways:
+
+  - `<ComponentName />`
+  - `<ComponentName></ComponentName>`
+  - `{ComponentName()}`
+
+- Functional component returns som sort of React Element or a JSX code.
+
+- **React.Fragment**: we use this when we want to return more than one JSX element. in this case we will wrap both element inside React.Fragment. React Fragment acts like an Empty Tag
+
+  `<React.Fragment></React.Fragment>`
+
+  We can also use shorthand of this by simply using `<></>`
+
+- **Component Composition** - When we have one or more components inside a component, it is component composition
+
+- In return statement of function component, we can write javascript inside curly braces `{}`
+
+- We can write component inside another component, react element inside component, component inside react element, react element inside another react element
+
+- It is very important to define/declare a component/react element before using it inside another component/react element.
+
+-
