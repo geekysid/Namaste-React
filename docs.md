@@ -117,4 +117,31 @@ a `(
 
 - It is very important to define/declare a component/react element before using it inside another component/react element.
 
--
+### Episode 04 - Talk is cheap, show me the code
+
+<!--
+  Header
+    - Logo
+    - Nav Items
+  Body
+    - Search
+    - RestaurantContainer
+      - RestaurantCard
+        - Image
+        - Name
+        - Cuisines
+        - Rating
+        - Dev Time
+        - Avg Price
+  Footer
+    - Copyright
+    - Links
+    - Address
+    - Contact
+ -->
+
+- Config Driven UI - Websites are driven by data from API... like a website will show different data in different parts of world aur at different time of the day... Example, food delivery apps show different restaurants or offers in different region.
+
+- Keys in Map: Key are important as it lets React to uniquely identify a component. If we have 10 items withour key, the react will treat them as same item and now if one more item is added, then it will render all 11 items. If all Items have keys than react can identify each item and knows that new item has a key that is not rendered and so it will only render the 11th item.
+
+### Episode 05 - Lets get Hooked

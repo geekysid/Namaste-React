@@ -1,0 +1,1864 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cacheExpiryTime": 320,
+    "pages": 1,
+    "pageIndex": 0,
+    "scrubber": 0,
+    "filters": [
+      {
+        "type": "FilterWidget",
+        "title": "Cuisines",
+        "key": "CUISINES",
+        "configType": "checkbox",
+        "visible": 1,
+        "options": [
+          { "option": "American", "selected": 0, "visible": 1 },
+          { "option": "Bakery", "selected": 0, "visible": 1 },
+          { "option": "Beverages", "selected": 0, "visible": 1 },
+          { "option": "Biryani", "selected": 0, "visible": 1 },
+          { "option": "Burgers", "selected": 0, "visible": 1 },
+          { "option": "Cafe", "selected": 0, "visible": 1 },
+          { "option": "Chaat", "selected": 0, "visible": 1 },
+          { "option": "Chinese", "selected": 0, "visible": 1 },
+          { "option": "Continental", "selected": 0, "visible": 1 },
+          { "option": "Desserts", "selected": 0, "visible": 1 },
+          { "option": "Fast Food", "selected": 0, "visible": 1 },
+          { "option": "Greek", "selected": 0, "visible": 1 },
+          { "option": "Grill", "selected": 0, "visible": 1 },
+          { "option": "Gujarati", "selected": 0, "visible": 1 },
+          { "option": "Healthy Food", "selected": 0, "visible": 1 },
+          { "option": "Ice Cream", "selected": 0, "visible": 1 },
+          { "option": "Ice Cream Cakes", "selected": 0, "visible": 1 },
+          { "option": "Indian", "selected": 0, "visible": 1 },
+          { "option": "Italian", "selected": 0, "visible": 1 },
+          { "option": "Italian-American", "selected": 0, "visible": 1 },
+          { "option": "Juices", "selected": 0, "visible": 1 },
+          { "option": "Lebanese", "selected": 0, "visible": 1 },
+          { "option": "Maharashtrian", "selected": 0, "visible": 1 },
+          { "option": "Mediterranean", "selected": 0, "visible": 1 },
+          { "option": "Mexican", "selected": 0, "visible": 1 },
+          { "option": "North Indian", "selected": 0, "visible": 1 },
+          { "option": "Pastas", "selected": 0, "visible": 1 },
+          { "option": "Pizzas", "selected": 0, "visible": 1 },
+          { "option": "Punjabi", "selected": 0, "visible": 1 },
+          {
+            "option": "SVANidhi Street Food Vendor",
+            "selected": 0,
+            "visible": 1
+          },
+          { "option": "Salads", "selected": 0, "visible": 1 },
+          { "option": "Snacks", "selected": 0, "visible": 1 },
+          { "option": "South Indian", "selected": 0, "visible": 1 },
+          { "option": "Street Food", "selected": 0, "visible": 1 },
+          { "option": "Sweets", "selected": 0, "visible": 1 },
+          { "option": "Tandoor", "selected": 0, "visible": 1 },
+          { "option": "Thai", "selected": 0, "visible": 1 },
+          { "option": "Thalis", "selected": 0, "visible": 1 }
+        ],
+        "detail": "",
+        "heading": "Cuisines",
+        "applicable": 1,
+        "searchable": 1
+      },
+      {
+        "type": "FilterWidget",
+        "title": "Show Restaurants With",
+        "key": "SHOW_RESTAURANTS_WITH",
+        "configType": "checkbox",
+        "visible": 1,
+        "options": [
+          { "option": "Offers", "selected": 0, "visible": 1 },
+          { "option": "Pure Veg", "selected": 0, "visible": 1 }
+        ],
+        "detail": "",
+        "heading": "Offers & More",
+        "applicable": 1,
+        "searchable": 0
+      }
+    ],
+    "sorts": [
+      {
+        "type": "SortWidget",
+        "key": "RELEVANCE",
+        "title": "Relevance",
+        "selected": 1,
+        "visible": 1,
+        "defaultSelection": true
+      },
+      {
+        "type": "SortWidget",
+        "key": "DELIVERY_TIME",
+        "title": "Delivery Time",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "RATING",
+        "title": "Rating",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "COST_FOR_TWO",
+        "title": "Cost: Low to High",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "COST_FOR_TWO_H2L",
+        "title": "Cost: High to Low",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      }
+    ],
+    "configs": {
+      "ribbons": {
+        "PREORDER": {
+          "type": "PREORDER",
+          "text": "Preorder",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#d53d4c",
+          "bottomBackgroundColor": "#af2330",
+          "priority": 3
+        },
+        "EXCLUSIVE": {
+          "type": "EXCLUSIVE",
+          "text": "Exclusive",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#fa4a5b",
+          "bottomBackgroundColor": "#d12a3b",
+          "priority": 2
+        },
+        "NEW": {
+          "type": "NEW",
+          "text": "Newly Added",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#d53d4c",
+          "bottomBackgroundColor": "#af2330",
+          "priority": 4
+        },
+        "REPEAT": {
+          "type": "REPEAT",
+          "text": "Repeat",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#D53D4C",
+          "bottomBackgroundColor": "#B02331",
+          "priority": 6
+        },
+        "CLOUD": {
+          "type": "CLOUD",
+          "text": "Daily Menus",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#fa4a5b",
+          "bottomBackgroundColor": "#d12a3b",
+          "priority": 5
+        },
+        "PREMIUM": {
+          "type": "PREMIUM",
+          "text": "Premium",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#8a584b",
+          "bottomBackgroundColor": "#583229",
+          "priority": 7
+        },
+        "PROMOTED": {
+          "type": "PROMOTED",
+          "text": "Promoted",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#3a3c41",
+          "bottomBackgroundColor": "#1e2023",
+          "priority": 1
+        }
+      },
+      "croutons": {
+        "SERVICEABLE_WITH_BANNER_RAIN": {
+          "type": "Crouton",
+          "bgColor": "#282C3F",
+          "icon": "rain_crouton_4x",
+          "textColor": "#ffffff",
+          "title": "Bad Weather",
+          "message": "Few restaurants unserviceable due to rains"
+        },
+        "SPECIAL": {
+          "type": "Crouton",
+          "bgColor": "#282C3F",
+          "icon": "surge_listing_piuzrv",
+          "textColor": "#ffffff",
+          "title": "High Demand",
+          "message": "Surge fee of Rs ${amount} may be applicable"
+        }
+      }
+    },
+    "cards": [
+      {
+        "cardType": "carousel",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "carousel",
+          "subtype": "topCarousel",
+          "data": {
+            "cards": [
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 635529,
+                  "creativeId": "rng/md/carousel/production/pneknawbadtvceqzwiep",
+                  "type": "restaurantCollectionV2",
+                  "link": "49301",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 334239,
+                  "creativeId": "rng/md/carousel/production/ehchczipeejs7qrk82u6",
+                  "type": "restaurantCollectionV2",
+                  "link": "56792",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 279324,
+                  "creativeId": "rng/md/carousel/production/ktqdpdx3oirpleckr0sy",
+                  "type": "restaurantCollectionV2",
+                  "link": "46726",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 607195,
+                  "creativeId": "rng/md/carousel/production/ifi2lbzxeu1hvsqrsip3",
+                  "type": "restaurantCollectionV2",
+                  "link": "56421",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "thirdPartyVendor": "",
+                  "thirdPartyAddress": false
+                }
+              }
+            ]
+          }
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "carousel",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "carousel",
+          "subtype": "openFilter",
+          "data": {
+            "cards": [
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 181684,
+                  "creativeId": "bkhjfipzydkoqncrxpyi",
+                  "type": "restaurantCollectionV2",
+                  "link": "11718",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "title": "Offers Near You",
+                  "subtitle": "0 OPTIONS",
+                  "restaurants": [],
+                  "totalCount": 0,
+                  "dwebOpenFilterTitle": "Offers Near You",
+                  "dwebOpenFilterBgColor": "#FF0000",
+                  "dwebOpenFilterSelectIcon": "eyperwsfhaoa5vktjtu4",
+                  "dwebOpenFilterDeselectIcon": "urw8usdf4mk9aywd59gq"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 181674,
+                  "creativeId": "azawtyrnrxqibiivimxe",
+                  "type": "restaurantCollectionV2",
+                  "link": "49083",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "title": "Premium",
+                  "subtitle": "0 OPTIONS",
+                  "restaurants": [],
+                  "totalCount": 0,
+                  "dwebOpenFilterTitle": "Premium",
+                  "dwebOpenFilterBgColor": "#FF0000",
+                  "dwebOpenFilterSelectIcon": "marketing-dashboard/carousel/bslg595hrlkv5aia4ihy",
+                  "dwebOpenFilterDeselectIcon": "marketing-dashboard/carousel/ftnsdmo6fotidtzobbm2"
+                }
+              },
+              {
+                "type": "carouselElement",
+                "subtype": "image",
+                "data": {
+                  "bannerId": 181680,
+                  "creativeId": "a3jqjjod5taken7dh1bs",
+                  "type": "restaurantCollectionV2",
+                  "link": "11721",
+                  "cityId": 0,
+                  "restaurantUuid": "",
+                  "restaurantParentId": "0",
+                  "title": "Veg Only",
+                  "subtitle": "0 OPTIONS",
+                  "restaurants": [],
+                  "totalCount": 0,
+                  "dwebOpenFilterTitle": "Vegetarian Options",
+                  "dwebOpenFilterBgColor": "#FF0000",
+                  "dwebOpenFilterSelectIcon": "qtjc8dzfexg72lug37a0",
+                  "dwebOpenFilterDeselectIcon": "bm8bziikwyvwqsml1clm"
+                }
+              }
+            ]
+          }
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "seeAllRestaurants",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "seeAllRestaurants",
+          "data": {
+            "title": "SEE ALL",
+            "totalOpenRestaurants": 167,
+            "cards": [
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "47881",
+                  "name": "Southern Grub The Taste Of South",
+                  "uuid": "b8e35973-6879-4286-8945-d5f1252e6c13",
+                  "city": "10",
+                  "area": "Navrang Tower",
+                  "totalRatingsString": "1000+ ratings",
+                  "cloudinaryImageId": "rkn8hztlb8w92dbyjz2w",
+                  "cuisines": [
+                    "South Indian",
+                    "Chinese",
+                    "North Indian",
+                    "Tandoor"
+                  ],
+                  "tags": [],
+                  "costForTwo": 25000,
+                  "costForTwoString": "₹250 FOR TWO",
+                  "deliveryTime": 32,
+                  "minDeliveryTime": 32,
+                  "maxDeliveryTime": 32,
+                  "slaString": "32 MINS",
+                  "lastMileTravel": 6,
+                  "slugs": {
+                    "restaurant": "southern-grub-sola-vastrapur",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "12 & 13, Navrang Tower, Opposite Sarthak School, Near Sattadhar Cross Road, Sola, Ahmedabad",
+                  "locality": "Sola",
+                  "parentId": 191550,
+                  "unserviceable": false,
+                  "veg": true,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "FLAT100 off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "FLAT100 off | Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "FLAT100 off | Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "₹100 OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "FLAT100 off | Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "ribbon": [{ "type": "PROMOTED" }],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 4400, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 4400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "4400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "cid=6739888~p=1~eid=00000188-038a-2499-3d5d-035900460170",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "6 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "47881",
+                    "deliveryTime": 32,
+                    "minDeliveryTime": 32,
+                    "maxDeliveryTime": 32,
+                    "lastMileTravel": 6,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": true,
+                  "avgRating": "4.2",
+                  "totalRatings": 1000,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "636527",
+                  "name": "Chandubhai Gathiya Wala",
+                  "uuid": "b99fe102-3781-4fd0-b218-6d510a55cd57",
+                  "city": "10",
+                  "area": "Ghatlodia",
+                  "totalRatingsString": "20+ ratings",
+                  "cloudinaryImageId": "tivj4fbgpk1gxp6swq3m",
+                  "cuisines": ["Gujarati", "Sweets"],
+                  "tags": [],
+                  "costForTwo": 10000,
+                  "costForTwoString": "₹100 FOR TWO",
+                  "deliveryTime": 27,
+                  "minDeliveryTime": 27,
+                  "maxDeliveryTime": 27,
+                  "slaString": "27 MINS",
+                  "lastMileTravel": 3.700000047683716,
+                  "slugs": {
+                    "restaurant": "chandubhai-gathiya-wala-ghatlodia-ghatlodia",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "Block-B, Sudarshan Gold 1, Sola, Ahmedabad, Gujarat 380060, India",
+                  "locality": "Sudarshan Gold 1",
+                  "parentId": 384433,
+                  "unserviceable": false,
+                  "veg": true,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 2900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 2900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "3.7 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "636527",
+                    "deliveryTime": 27,
+                    "minDeliveryTime": 27,
+                    "maxDeliveryTime": 27,
+                    "lastMileTravel": 3.700000047683716,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.8",
+                  "totalRatings": 20,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "682815",
+                  "name": "Paratha Kitchen\t",
+                  "uuid": "bf453b2b-6fdd-479a-acb7-8fe6d4ed62f5",
+                  "city": "10",
+                  "area": "Bopal",
+                  "totalRatingsString": "20+ ratings",
+                  "cloudinaryImageId": "9e8b200b2b1a97d0b6cbd9852e54a179",
+                  "cuisines": ["South Indian", "North Indian"],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 32,
+                  "minDeliveryTime": 32,
+                  "maxDeliveryTime": 32,
+                  "slaString": "32 MINS",
+                  "lastMileTravel": 3.9000000953674316,
+                  "slugs": {
+                    "restaurant": "paratha-kitchen-bopal-bopal",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "G.F.-01, Avneesh Heights, Shilaj Circle, Nr. S. P.  Ring Road, Shilaj, Ahmedabad., Ahmedabad  Municipal Corporation, Ahmedabad,  Gujarat-380058",
+                  "locality": "Avneesh Heights",
+                  "parentId": 155405,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "FLAT200 off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "FLAT200 off | Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "FLAT200 off | Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "₹200 OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "FLAT200 off | Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 2900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 2900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "2900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "3.9 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "682815",
+                    "deliveryTime": 32,
+                    "minDeliveryTime": 32,
+                    "maxDeliveryTime": 32,
+                    "lastMileTravel": 3.9000000953674316,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.9",
+                  "totalRatings": 20,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "253531",
+                  "name": "Chai G",
+                  "uuid": "a51e815f-09f1-4fb2-88b8-5abd7b2a6cc0",
+                  "city": "10",
+                  "area": "Chanakyapuri",
+                  "totalRatingsString": "500+ ratings",
+                  "cloudinaryImageId": "qqri09hcugmauhhydkyn",
+                  "cuisines": ["Beverages"],
+                  "tags": [],
+                  "costForTwo": 10000,
+                  "costForTwoString": "₹100 FOR TWO",
+                  "deliveryTime": 28,
+                  "minDeliveryTime": 28,
+                  "maxDeliveryTime": 28,
+                  "slaString": "28 MINS",
+                  "lastMileTravel": 4.800000190734863,
+                  "slugs": {
+                    "restaurant": "chai-g-ghatlodia-ghatlodia",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "Ganesh Meridian, Sarkhej - Gandhinagar Highway, Vishwas City 1, Sola, Ahmedabad, Gujarat, India",
+                  "locality": "Vishwas City 4",
+                  "parentId": 56999,
+                  "unserviceable": false,
+                  "veg": true,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3400, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "4.8 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "253531",
+                    "deliveryTime": 28,
+                    "minDeliveryTime": 28,
+                    "maxDeliveryTime": 28,
+                    "lastMileTravel": 4.800000190734863,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.3",
+                  "totalRatings": 500,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "126975",
+                  "name": "Jay Bhavani Vadapav",
+                  "uuid": "c7cc29c0-1779-42af-bde8-82aae98f1730",
+                  "city": "10",
+                  "area": "Satyam Complex",
+                  "totalRatingsString": "500+ ratings",
+                  "cloudinaryImageId": "sanbycqspo8znxio3edk",
+                  "cuisines": ["Snacks"],
+                  "tags": [],
+                  "costForTwo": 25000,
+                  "costForTwoString": "₹250 FOR TWO",
+                  "deliveryTime": 26,
+                  "minDeliveryTime": 26,
+                  "maxDeliveryTime": 26,
+                  "slaString": "26 MINS",
+                  "lastMileTravel": 5,
+                  "slugs": {
+                    "restaurant": "jay-bhavani-vadapav-sola-science-city",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "G.f-1, Satyamev 2, Opposite Kargil Petrol Pump, SG Highway, Sola, Ahmedabad",
+                  "locality": "Sola",
+                  "parentId": 4428,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "FLAT75 off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "FLAT75 off | Use BFBINGE",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "FLAT75 off | Use BFBINGE",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "₹75 OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use BFBINGE",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "FLAT75 off | Use BFBINGE",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "5 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "126975",
+                    "deliveryTime": 26,
+                    "minDeliveryTime": 26,
+                    "maxDeliveryTime": 26,
+                    "lastMileTravel": 5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.9",
+                  "totalRatings": 500,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "624281",
+                  "name": "Jay Ambee Farshaan & Sweets\t",
+                  "uuid": "9215f36a-56ac-4318-bfcb-8556cf4f6993",
+                  "city": "10",
+                  "area": "Bopal",
+                  "totalRatingsString": "Too Few Ratings",
+                  "cloudinaryImageId": "hqqlzfd6u0grx6qz1kud",
+                  "cuisines": ["Sweets", "Snacks", "Chaat"],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 39,
+                  "minDeliveryTime": 39,
+                  "maxDeliveryTime": 39,
+                  "slaString": "39 MINS",
+                  "lastMileTravel": 5,
+                  "slugs": {
+                    "restaurant": "jay-ambee-farshaan-&-sweets-bopal-bopal",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "SHOP NO.1, OPP. AXARA PAN PARLAR, SHILAJ RACHARDA BAYPAS ROAD, SHILAJ, AHEMDABAD, 380059 ,",
+                  "locality": "Shilaj",
+                  "parentId": 371443,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "5 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "624281",
+                    "deliveryTime": 39,
+                    "minDeliveryTime": 39,
+                    "maxDeliveryTime": 39,
+                    "lastMileTravel": 5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "--",
+                  "totalRatings": 0,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "686215",
+                  "name": "New Anand Sandwich",
+                  "uuid": "48d14d84-af75-4670-afcd-ec3b251ec294",
+                  "city": "10",
+                  "area": "Ghatlodia",
+                  "totalRatingsString": "Too Few Ratings",
+                  "cloudinaryImageId": "180fc8d6126970843197d272afadf4cf",
+                  "cuisines": [
+                    "Fast Food",
+                    "Indian",
+                    "Chinese",
+                    "Italian-American",
+                    "Snacks",
+                    "Beverages"
+                  ],
+                  "tags": [],
+                  "costForTwo": 40000,
+                  "costForTwoString": "₹400 FOR TWO",
+                  "deliveryTime": 32,
+                  "minDeliveryTime": 32,
+                  "maxDeliveryTime": 32,
+                  "slaString": "32 MINS",
+                  "lastMileTravel": 4.800000190734863,
+                  "slugs": {
+                    "restaurant": "new-anand-sandwich-ghatlodia-ghatlodia",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "C 58 GANESH MERIDIAN NEAR KARGIL PETROL PUMP GHATLODIA AHMEDABAD",
+                  "locality": "Kargil Petrol Pump",
+                  "parentId": 409053,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3400, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "4.8 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "686215",
+                    "deliveryTime": 32,
+                    "minDeliveryTime": 32,
+                    "maxDeliveryTime": 32,
+                    "lastMileTravel": 4.800000190734863,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "--",
+                  "totalRatings": 0,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "303743",
+                  "name": "R Kitchen - Renaissance Hotel ",
+                  "uuid": "7cd392c6-c00f-47ec-bf40-f81d0e9e951a",
+                  "city": "10",
+                  "area": "Renaissance",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "miqcexcmvefhlenchvck",
+                  "cuisines": [
+                    "Bakery",
+                    "Indian",
+                    "Chinese",
+                    "Pizzas",
+                    "Italian",
+                    "Desserts"
+                  ],
+                  "tags": [],
+                  "costForTwo": 50000,
+                  "costForTwoString": "₹500 FOR TWO",
+                  "deliveryTime": 37,
+                  "minDeliveryTime": 37,
+                  "maxDeliveryTime": 37,
+                  "slaString": "37 MINS",
+                  "lastMileTravel": 5,
+                  "slugs": {
+                    "restaurant": "r-kitchen-sarkhej-gandhinagar-hwy-ghatlodia",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "Behind Ganesh Meridian Complex Sola Road, Sarkhej  Gandhinagar Hwy, Ahmedabad, Gujarat 380060",
+                  "locality": "Sola",
+                  "parentId": 163712,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "5 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "303743",
+                    "deliveryTime": 37,
+                    "minDeliveryTime": 37,
+                    "maxDeliveryTime": 37,
+                    "lastMileTravel": 5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.1",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "249649",
+                  "name": "Dp Cake Studio",
+                  "uuid": "824dea6a-cefa-4339-a0ea-e415058abbaa",
+                  "city": "10",
+                  "area": "Sola",
+                  "totalRatingsString": "20+ ratings",
+                  "cloudinaryImageId": "asyjgfh5qutlr5pvltmq",
+                  "cuisines": ["Indian"],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 34,
+                  "minDeliveryTime": 34,
+                  "maxDeliveryTime": 34,
+                  "slaString": "34 MINS",
+                  "lastMileTravel": 5,
+                  "slugs": {
+                    "restaurant": "dp-cake-studio-vastrapur-vastrapur",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "Shop No 21 Shyam Residency, Near Audi Ahmedbad showroom, Opp Bandhan party plot. Opp Ramdev Masala, Sola, S. G highway,Ahmedabad - 380060",
+                  "locality": "S. G highway",
+                  "parentId": 74543,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "5 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "249649",
+                    "deliveryTime": 34,
+                    "minDeliveryTime": 34,
+                    "maxDeliveryTime": 34,
+                    "lastMileTravel": 5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.0",
+                  "totalRatings": 20,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "366934",
+                  "name": "Haanji Amritsari Kulchas",
+                  "uuid": "88dc8869-7c1e-4267-9e71-5a34ef39b71e",
+                  "city": "10",
+                  "area": "Sola",
+                  "totalRatingsString": "500+ ratings",
+                  "cloudinaryImageId": "lnlocs66zoqusdj3vxvo",
+                  "cuisines": [
+                    "Chinese",
+                    "South Indian",
+                    "Beverages",
+                    "Punjabi",
+                    "Thalis",
+                    "North Indian"
+                  ],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 34,
+                  "minDeliveryTime": 34,
+                  "maxDeliveryTime": 34,
+                  "slaString": "34 MINS",
+                  "lastMileTravel": 5.5,
+                  "slugs": {
+                    "restaurant": "haanji-amritsari-kulchas-ghatlodia-ghatlodia",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "SHAKTI EXTOL,NEXT TO ZYDUS HOSPITAL,THALTEJ,380059",
+                  "locality": "Thaltej",
+                  "parentId": 92535,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "Free Buttermilk",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Free Buttermilk on orders above ₹199",
+                        "discountType": "Freebie",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "Free Buttermilk on orders above ₹199",
+                        "discountType": "Freebie",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Free Buttermilk",
+                        "discountType": "Freebie",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "Free Buttermilk on orders above ₹199",
+                        "discountType": "Freebie",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "5.5 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "366934",
+                    "deliveryTime": 34,
+                    "minDeliveryTime": 34,
+                    "maxDeliveryTime": 34,
+                    "lastMileTravel": 5.5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.7",
+                  "totalRatings": 500,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "608502",
+                  "name": "24 Hours foods",
+                  "uuid": "48885d42-52ed-4d73-974d-2b8460403280",
+                  "city": "10",
+                  "area": "Ghatlodia",
+                  "totalRatingsString": "20+ ratings",
+                  "cloudinaryImageId": "hvx6unfk5c57a3hanfzy",
+                  "cuisines": ["North Indian", "Chaat", "Snacks", "Beverages"],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 35,
+                  "minDeliveryTime": 35,
+                  "maxDeliveryTime": 35,
+                  "slaString": "35 MINS",
+                  "lastMileTravel": 5.5,
+                  "slugs": {
+                    "restaurant": "24-hours-foods-ghatlodia-ghatlodia",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "SHAKTI EXTOL,NEXT TO ZYDUS HOSPITAL,THALTEJ, AHMEDABAD 380059, Ahmedabad . , Ahmedabad Municipal Corporation Gujarat - 380059",
+                  "locality": "Next To Zydus Hospital",
+                  "parentId": 361929,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "5.5 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "608502",
+                    "deliveryTime": 35,
+                    "minDeliveryTime": 35,
+                    "maxDeliveryTime": 35,
+                    "lastMileTravel": 5.5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "3.8",
+                  "totalRatings": 20,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "121225",
+                  "name": "Chhaswala",
+                  "uuid": "84602603-8f16-4126-a497-5b84e7c4c10f",
+                  "city": "10",
+                  "area": "Sola",
+                  "totalRatingsString": "1000+ ratings",
+                  "cloudinaryImageId": "vbqdojbc5mzmoucweual",
+                  "cuisines": ["Beverages"],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 22,
+                  "minDeliveryTime": 22,
+                  "maxDeliveryTime": 22,
+                  "slaString": "22 MINS",
+                  "lastMileTravel": 5.5,
+                  "slugs": {
+                    "restaurant": "chhaswala-ghatlodia-ghatlodia",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "LL 1, Matulya Complex, Near Sattadhar Crossroad, Ghatlodia, Ahmedabad",
+                  "locality": "Matulya Complex",
+                  "parentId": 7453,
+                  "unserviceable": false,
+                  "veg": true,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "5.5 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "121225",
+                    "deliveryTime": 22,
+                    "minDeliveryTime": 22,
+                    "maxDeliveryTime": 22,
+                    "lastMileTravel": 5.5,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.7",
+                  "totalRatings": 1000,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "533539",
+                  "name": "Gajanand Pauva House",
+                  "uuid": "f9c66e1d-f77c-4b4b-9586-6f7fc194e6a3",
+                  "city": "10",
+                  "area": "Ghatlodia",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "z9ews7vcyzhznza8kyiv",
+                  "cuisines": [
+                    "Street Food",
+                    "Snacks",
+                    "Fast Food",
+                    "Beverages"
+                  ],
+                  "tags": [],
+                  "costForTwo": 10000,
+                  "costForTwoString": "₹100 FOR TWO",
+                  "deliveryTime": 26,
+                  "minDeliveryTime": 26,
+                  "maxDeliveryTime": 26,
+                  "slaString": "26 MINS",
+                  "lastMileTravel": 6,
+                  "slugs": {
+                    "restaurant": "gajanand-pauva-house-ghatlodia-ghatlodia",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "GF 9, Ground Floor, APM Mall, Sun & Step Club Road, Sattadhar Cross Road, Ghatlodia, Nava Vadia (West Zone), Ahmedabad, Gujarat - 380013",
+                  "locality": "Apm Mall",
+                  "parentId": 7615,
+                  "unserviceable": false,
+                  "veg": true,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "aggregatedDiscountInfo": {
+                    "header": "FLAT100 off",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "FLAT100 off | Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "FLAT100 off | Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "aggregatedDiscountInfoV2": {
+                    "header": "₹100 OFF",
+                    "shortDescriptionList": [
+                      {
+                        "meta": "Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "descriptionList": [
+                      {
+                        "meta": "FLAT100 off | Use FLATDEAL",
+                        "discountType": "Flat",
+                        "operationType": "RESTAURANT"
+                      }
+                    ],
+                    "subHeader": "",
+                    "headerType": 0,
+                    "superFreedel": ""
+                  },
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 4400, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 4400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "4400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 1,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "6 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "533539",
+                    "deliveryTime": 26,
+                    "minDeliveryTime": 26,
+                    "maxDeliveryTime": 26,
+                    "lastMileTravel": 6,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "IT_IS_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.1",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "469198",
+                  "name": "Starbucks Coffee",
+                  "uuid": "69e513ac-df29-4d3d-8c6d-6470f1d6f019",
+                  "city": "10",
+                  "area": "Sindhu Bhavan Road",
+                  "totalRatingsString": "100+ ratings",
+                  "cloudinaryImageId": "f9ac2c765637d42a9802cf703ced07d8",
+                  "cuisines": [
+                    "Beverages",
+                    "Cafe",
+                    "Snacks",
+                    "Desserts",
+                    "Bakery",
+                    "Ice Cream"
+                  ],
+                  "tags": [],
+                  "costForTwo": 40000,
+                  "costForTwoString": "₹400 FOR TWO",
+                  "deliveryTime": 35,
+                  "minDeliveryTime": 35,
+                  "maxDeliveryTime": 35,
+                  "slaString": "35 MINS",
+                  "lastMileTravel": 5.900000095367432,
+                  "slugs": {
+                    "restaurant": "starbucks-coffee-sindhu-bhavan-road-bopal",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "TATA STARBUCKS PVT LTD, Ground Floor, Sankalp Square 3-A, Taj Skyline, Sindhu Bhavan Road, Ahmedabad, Gujarat 380058",
+                  "locality": "Taj Skyline",
+                  "parentId": 195515,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 3900, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 3900,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "3900",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 0,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "5.9 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "469198",
+                    "deliveryTime": 35,
+                    "minDeliveryTime": 35,
+                    "maxDeliveryTime": 35,
+                    "lastMileTravel": 5.900000095367432,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "NOT_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "4.0",
+                  "totalRatings": 100,
+                  "new": false
+                },
+                "subtype": "basic"
+              },
+              {
+                "type": "restaurant",
+                "data": {
+                  "type": "F",
+                  "id": "676406",
+                  "name": "Bherunath Maggi & Pasta",
+                  "uuid": "0ae93213-21c2-4b07-aa62-a659e0580c0d",
+                  "city": "10",
+                  "area": "Ghatlodia",
+                  "totalRatingsString": "Too Few Ratings",
+                  "cloudinaryImageId": "8006da15f56be6c061c258a85c617b45",
+                  "cuisines": ["Snacks", "Pastas", "Fast Food", "Chinese"],
+                  "tags": [],
+                  "costForTwo": 20000,
+                  "costForTwoString": "₹200 FOR TWO",
+                  "deliveryTime": 41,
+                  "minDeliveryTime": 41,
+                  "maxDeliveryTime": 41,
+                  "slaString": "41 MINS",
+                  "lastMileTravel": 6.099999904632568,
+                  "slugs": {
+                    "restaurant": "bherunath-maggi-&-pasta-ghatlodia-ghatlodia",
+                    "city": "ahmedabad"
+                  },
+                  "cityState": "10",
+                  "address": "SHIVSHAKTI NAGAR, B/H INDIRA VASHAHAT, CHANKYAPURI,  CHANDLODIYA-382481, AHMEDABAD",
+                  "locality": "Shivshakti Nagar",
+                  "parentId": 404439,
+                  "unserviceable": false,
+                  "veg": false,
+                  "select": false,
+                  "favorite": false,
+                  "tradeCampaignHeaders": [],
+                  "chain": [],
+                  "feeDetails": {
+                    "fees": [
+                      { "name": "distance", "fee": 4400, "message": "" },
+                      { "name": "time", "fee": 0, "message": "" },
+                      { "name": "special", "fee": 0, "message": "" }
+                    ],
+                    "totalFees": 4400,
+                    "message": "",
+                    "title": "Delivery Charge",
+                    "amount": "4400",
+                    "icon": ""
+                  },
+                  "availability": {
+                    "opened": true,
+                    "nextOpenMessage": "",
+                    "nextCloseMessage": ""
+                  },
+                  "longDistanceEnabled": 1,
+                  "rainMode": "NONE",
+                  "thirdPartyAddress": false,
+                  "thirdPartyVendor": "",
+                  "adTrackingID": "",
+                  "badges": {
+                    "imageBased": [],
+                    "textBased": [],
+                    "textExtendedBadges": []
+                  },
+                  "lastMileTravelString": "6 kms",
+                  "hasSurge": false,
+                  "sla": {
+                    "restaurantId": "676406",
+                    "deliveryTime": 41,
+                    "minDeliveryTime": 41,
+                    "maxDeliveryTime": 41,
+                    "lastMileTravel": 6.099999904632568,
+                    "lastMileDistance": 0,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "NONE",
+                    "longDistance": "IT_IS_LONG_DISTANCE",
+                    "preferentialService": false,
+                    "iconType": "EMPTY"
+                  },
+                  "promoted": false,
+                  "avgRating": "--",
+                  "totalRatings": 0,
+                  "new": false
+                },
+                "subtype": "basic"
+              }
+            ],
+            "totalRestaurants": 167
+          },
+          "subtype": "personalized"
+        },
+        "parentWidget": false
+      }
+    ],
+    "nextPageFetch": 0
+  },
+  "tid": "35da9aa4-7b23-48dc-8135-7f3acc04f4ed",
+  "sid": "6yw6ffb9-9897-402c-8c18-69f4bd4ce104",
+  "deviceId": "4b10ff45-f58b-7729-9068-2d61f095eedb",
+  "csrfToken": "Ejx0NuLNUHIs-EEC2krH7Dsn-wNatzn2KpNY5n24"
+}
