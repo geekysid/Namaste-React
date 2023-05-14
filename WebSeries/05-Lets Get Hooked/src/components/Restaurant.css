@@ -1,0 +1,46 @@
+.res-filter {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.res-filter--btn {
+  padding: 10px 15px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  border: 1px solid #294401;
+}
+
+.res-filter--btn:hover {
+  cursor: pointer;
+  border: 1px solid greenyellow;
+  background-color: #294401;
+  color: greenyellow;
+}
+
+.res-filter--btn:active {
+  cursor: pointer;
+  border: 1px solid greenyellow;
+  background-color: #294401;
+  color: greenyellow;
+  transform: scale(1.02) perspective(0px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.res-filter--btn-active {
+  cursor: pointer;
+  border: 1px solid greenyellow;
+  background-color: #294401;
+  color: greenyellow;
+}
+
+.search-box--input {
+  padding: 10px 15px;
+}
+.search-box--input:focus {
+  border: 1px solid #294401;
+  background-color: greenyellow;
+}
