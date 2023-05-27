@@ -262,3 +262,44 @@ Learn about CORS and Optional Chaining
 - Never use any hook inside an if/else block because a state variable will only be present if the condition is met and it will create inconsistencies in code. Also never use hook inside for loop as state variable life will last as long as the loop exists.
 
 - Never use useState outside functional components.
+
+### Episode 07 - Finding the Path!!
+
+To navigate in App, we need to define paths, clicking on which different components will be loaded giving us a feel for MPA and not SPA.
+
+- **Server Side Routings Vs Client Side Routing**: In SSR, all page come from the server. SO if we click on a link, it makes request to server, gets the response and renders page to the browser. In CCR, the entire application is sent to the client at one and when user clicks on the link, it simply gets rendered on browser without making any request to the server.
+
+- **React-Router-Dom** - This is a most widely used package that allows us to create routes with ease and navigate through the app. This package allows us to creates routes in many ways but one I like is creating routes using _useRoutes_ hook.
+
+  - _BrowserRouter_: This is a component provided by the package and we need to wrap our entire package inside this component. Doing so lets React know that we everything inside this will be navigatable. If we have any component outside BrowserRouter component, will give us error.
+
+        `<BrowserRouter>
+
+      <App />
+    </BrowserRouter>`
+
+  - _createBrowserRouter_: This is a hook that allows us to create all possible routes in one component in separate js file. Doing so makes it very easy in maintaining the routing logics.
+
+  - _Link_:
+
+  - _useParams_:
+
+  - _Outlet_: All the children gos into Outlet. It is kind of a place holder.
+
+  - _useRouteError_: This is another hook that we get from this package and this hook returns the error that we get.
+
+  - _Routes_:
+
+  - _Route_:
+
+  - _NavLink_:
+
+  - _Navigate_:
+
+  - _NavLink_:
+
+  - _useNavigate_:
+
+  - _useSearchParams_:
+
+  - _useLocation_:
