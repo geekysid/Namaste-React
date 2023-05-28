@@ -37,15 +37,21 @@ React does not makes an App fast on it own. It needs help from some extra packag
 
 - We can start/ignite our app using parcel by below command. Now when we make any changes to the code, it will be automatically update our app in browserlist
 
-  `npx parcel index.html`
+  ```javascript
+  npx parcel index.html
+  ```
 
 - **npx**: npx simply means executing a package where as npm means installing our package.
 
 - We will now install react in our app and stop using CDN to get react as getting react from CDN is a costly thing because we will need to make a call to CDN and download react every time some access our app and also through CDN we only get a specific version of react. If react version change, we will have to make changes in our code. If we install react and use it, then it will much easier. We will not use -D flag this time as this is not a dev dependency.
 
-  `npm install react`
+  ```javascript
+  npm install react
+  ```
 
-  `npm install react-dom`
+  ```javascript
+  npm install react-dom
+  ```
 
 - **parcel**
   When parcel creates a dev/prod bundle, it stores it in _dist_ folder. It will create 3 files, index.html, index.css and index.js. Even if we have 100s of file in our project, Parcel will compress them to these 3 file which will be production ready.
@@ -78,7 +84,9 @@ React does not makes an App fast on it own. It needs help from some extra packag
 
   - Different dev and prod build. We create a prod build but adding a _build_ keyword. Also don't forget to remove "main" keyword and its value from package.json
 
-    `npx parcel build index.html`
+    ```javascript
+    npx parcel build index.html
+    ```
 
 - React is not the only thing that makes an app fast but also depends on bundlers like parcel.
 
@@ -86,11 +94,13 @@ React does not makes an App fast on it own. It needs help from some extra packag
 
   `https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb24%3D`
 
-  `"browserslist": [
-  "last 2 version of chrome", // will work perfectly on lats 2 version of chrome
-  "last 2 version", // will work perfectly on lats 2 version of all browsers
-  "cover 95.5% of US", // will work perfectly on all browsers and its version so that 95.5% of all people in US can access it pefectly
-]`
+  ```javascript
+  "browserslist": [
+    "last 2 version of chrome", // will work perfectly on lats 2 version of chrome
+    "last 2 version", // will work perfectly on lats 2 version of all browsers
+    "cover 95.5% of US", // will work perfectly on all browsers and its version so that 95.5% of all people in US can access it perfectly
+  ]
+  ```
 
 ---
 
@@ -112,11 +122,11 @@ React does not makes an App fast on it own. It needs help from some extra packag
 
 - We can write a component inside a JSX:
 
-  `(
-    <div>
-      <ComponentName />
-    </div>
-  )`
+  ```javascript
+  <div>
+    <ComponentName />
+  </div>
+  ```
 
 - We can render a component inside a functional component in 3 ways:
 
@@ -128,7 +138,9 @@ React does not makes an App fast on it own. It needs help from some extra packag
 
 - **React.Fragment**: we use this when we want to return more than one JSX element. in this case we will wrap both element inside React.Fragment. React Fragment acts like an Empty Tag
 
-  `<React.Fragment></React.Fragment>`
+  ```javascript
+  <React.Fragment></React.Fragment>
+  ```
 
   We can also use shorthand of this by simply using `<></>`
 
@@ -181,21 +193,29 @@ React does not makes an App fast on it own. It needs help from some extra packag
 
   - Default Export: One JS file can only have one default export. This kind of exports have a keyword _default_.
 
-    `export default myObj`;
+    ```javascript
+    export default myObj;
+    ```
 
     When importing objects that are exported with default keyword, we can use any name as the file will only have one default export. We also don't need any curly braces for importing the same the same.
 
-    `import youObject from './FileName`;
+    ```javascript
+    import youObject from './FileName;
+    ```
 
     This will import myObj but will be identified as yourObject in this file.
 
   - Named Export: All export other than default export are Named export. These kind of export has no special key word. One JS file can has any number of named export.
 
-    `export myObj`;
+    ```javascript
+    export myObj;
+    ```
 
     When importing these objects, we need to use curly braces and also need to use exactly same name as used to export
 
-    `import {myObj} from './FileName`;
+    ```javascript
+    import { myObj } from "./FileName";
+    ```
 
 - **State Variable**: state variable a special variable in react that are defined inside a components and any change in state variable, causes the component in which the state variable is defined to re-render. We create state variable using a useState hook
 
@@ -205,9 +225,13 @@ React does not makes an App fast on it own. It needs help from some extra packag
 
 - **useState()** => JS function (or React Hook) that returns an array of sate variable and a function used to update the value of that state.
 
-  `import { useState } from "react";`
+  ```javascript
+  import { useState } from "react";
+  ```
 
-  `const [myState, setMyState] = useState("1")`
+  ```javascript
+  const [myState, setMyState] = useState("1");
+  ```
 
   Above we have used a hook called useState to declare a state variable, _myState_, and a function, _setMySate_, that will be used to update the value of state variable, _myState_. We passed the value of 1 to the hook, useState, which will make the initial value of state variable, myState, as 1.
 
@@ -215,13 +239,13 @@ React does not makes an App fast on it own. It needs help from some extra packag
 
 ### Episode 06 - Exploring the World!!
 
--
-
 - **async-await**: _await_ allow us to wait till function marked with _async_ returns. A function can me made to work asynchronously by adding a keyword _async_ before its definition. This function always returns a promise.
 
 - **useEffect Hook**: If we have a part of code that we do not want to execute every time our component re-renders, but only on certain conditions, like change in state of a specific or group of state variables, then we place that code in useEffect. Such state variables are called dependencies of eseEffect are ate passed as 2nd argument of the function in arrays. If we want to execute something only once during the lifecycle of a component, then we only pass an empty array as 2nd arguments
 
-  `useEffect(() => {}, [stateVariable1, stateVariable2])`
+  ```javascript
+  useEffect(() => {}, [stateVariable1, stateVariable2]);
+  ```
 
 We can have any number of useEffect in a component. It is important to note that useEffect is called after component is rendered. It is also important to know that that state variable on which useEffect() depends, is not changes inside useEffect(), else it will end up in an infinite loop. If we don't have an dependency array, then code inside useEffect() will be called every time our component re-render.
 
@@ -229,17 +253,19 @@ We can have any number of useEffect in a component. It is important to note that
 
 - **Optional Chaining(?.)**: This is a JS feature that allows us to access properties of an object or elements of array without having to check if the object or array is null or undefined.
 
-`   let user: {
-        name: "Sid",
-        address: {
-            houseNumber: 102,,
-            street: "New Street",
-            country: "India"
-        }
-    }
-    console.log(user.address.state) // will return undefined.
-    console.log(user.address.state?.a) // will return undefined as we used optional chaining to access property a of undefined.
-    console.log(user.address.state.a) // will return error as we try to access property a of undefined`
+```javascript
+  let user: {
+      name: "Sid",
+      address: {
+          houseNumber: 102,,
+          street: "New Street",
+          country: "India"
+      }
+  }
+  console.log(user.address.state) // will return undefined.
+  console.log(user.address.state?.a) // will return undefined as we used optional chaining to access property a of undefined.
+  console.log(user.address.state.a) // will return error as we try to access property a of undefined
+```
 
 TODO: -
 
@@ -253,15 +279,13 @@ TODO: -
 
 Learn about CORS and Optional Chaining
 
----
-
-### Episode 06 - Exploring the World!!
-
 - Never create a component inside another component. No one is toping us from doing so but it is not recommended by facebook itself. This is because every time our component will be rendered, the inner component will be re-created.
 
 - Never use any hook inside an if/else block because a state variable will only be present if the condition is met and it will create inconsistencies in code. Also never use hook inside for loop as state variable life will last as long as the loop exists.
 
 - Never use useState outside functional components.
+
+---
 
 ### Episode 07 - Finding the Path!!
 
@@ -273,10 +297,11 @@ To navigate in App, we need to define paths, clicking on which different compone
 
   - _BrowserRouter_: This is a component provided by the package and we need to wrap our entire package inside this component. Doing so lets React know that we everything inside this will be navigatable. If we have any component outside BrowserRouter component, will give us error.
 
-        `<BrowserRouter>
-
+    ```javascript
+    <BrowserRouter>
       <App />
-    </BrowserRouter>`
+    </BrowserRouter>
+    ```
 
   - _createBrowserRouter_: This is a hook that allows us to create all possible routes in one component in separate js file. Doing so makes it very easy in maintaining the routing logics.
 
@@ -303,3 +328,173 @@ To navigate in App, we need to define paths, clicking on which different compone
   - _useSearchParams_:
 
   - _useLocation_:
+
+### Episode 08 - Let's get Classy!!
+
+- Class component skeleton
+
+  ```javascript
+  import React from "react";
+  class MyComponent extends React.Component {
+    render()
+  }
+  ```
+
+- Its not important that every class must have constructor but if we want to use props or state in a class, those are defined only inside the constructor. The 1st line inside the constructor is always calling super constructor
+
+  ```javascript
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 1
+    }
+  }
+  ```
+
+- In order to use _this_ keyword inside any function, we need to bind keyword with the function in the constructor
+
+  ```javascript
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 1
+    };
+
+    // binding this keyword to method clickHandler
+    this.clickHandler = this.clickHandler(this);
+  }
+
+  clickHandler() {
+    this.setState(counter: this.state.counter + 1)
+  }
+  ```
+
+- In class component all states are wrapped inside one object and is use as this.state. State are always defined inside a constructor.
+
+  ```javascript
+  constructor() {
+    super();
+    this.state = {
+      name: "Siddhant",
+      skills: ["Python", "Django", "Web Scraping", "JS5", "GIT", "React18"],
+      niche: "React Developer",
+      employment: {
+        previous: ["Wipro", "Apple", "Google"],
+        current: ["Freelancer"]
+      }
+    }
+  }
+  ```
+
+  Here we have 4 different state, _name_, _skills_ and _niche_ and _employment_.Each state is independent from each other and when one state is changed, it doesn't affect the other.
+
+- In order to change state, we use this.setState() function. In this function we only use the state that we want to manipulate and. All other state not used in setState will remain unchanged.
+
+  ```javascript
+  constructor() {
+    super();
+    this.state = {
+      name: "Siddhant",
+      skills: ["Python", "Django", "Web Scraping", "JS5", "GIT", "React18"],
+      niche: "React Developer",
+      employment: {
+        previous: ["Wipro", "Apple", "Google"],
+        current: ["Freelancer"]
+      }
+    }
+
+    this.changeNiche = this.changeNiche.bind(this);
+  }
+
+  // function to change Niche of state
+  changeNiche() {
+    this.setState({
+      niche: "Full Stack Developer"
+    })
+  }
+  ```
+
+  Here only the Niche state will change and other will remain unchanged.
+
+#### **SEQUENCE OF METHOD CALL IN CLASS COMPONENT**
+
+- _MOUNTING PHASE_
+
+  - Constructor
+  - Render
+  - ComponentDidMount
+
+- _UPDATING PHASE_
+
+  - Render
+  - ComponentDidUpdate
+
+- _UNMOUNTING PHASE_
+  - ComponentWillUnmount
+
+Assume below code. We have a Component A that has children component A1 and A2. Similarly we have B Component with Childress B1 and B2.
+
+```javascript
+render () {
+  <A>
+    <A1 />
+    <A2 />
+  </A>
+  <B>
+    <B1 />
+    <B2 />
+  </B>
+}
+```
+
+The sequence of the lifecycle method will be:
+
+- When Page Loads (Mounting Phase):
+
+  - A => Constructor
+  - A => Render
+  - A1 => Constructor
+  - A1 => Render
+  - A2 => Constructor
+  - A2 => Render
+  - A1 => ComponentDidMount
+  - A2 => ComponentDidMount
+  - A => ComponentDidMount
+  - B => Constructor
+  - B => Render
+  - B1 => Constructor
+  - B1 => Render
+  - B2 => Constructor
+  - B2 => Render
+  - B1 => ComponentDidMount
+  - B2 => ComponentDidMount
+  - B => ComponentDidMount
+
+- When we updates state of A (Updating Phase):
+
+  - A => Render
+  - A1 => Render
+  - A2 => Render
+  - A1 => ComponentDidUpdate
+  - A2 => ComponentDidUpdate
+  - A => ComponentDidUpdate
+
+- When we unloads the Entire component (Unmounting Phase)
+
+  - A => ComponentWillUnmount
+  - A1 => ComponentWillUnmount
+  - A2 => ComponentWillUnmount
+
+- Best place to make an API call is componentDidMount
+
+#### **SEQUENCE OF METHOD CALL IN FUNCTIONAL COMPONENT**
+
+---
+
+### Episode 09 - Optimizing our App!!
+
+#### **Custom Hooks**:
+
+- In simpler terms, they are just JS function that can access React features like States and other hooks. We use the for Reusability, Readability, Maintainability, Easy Testing, Modularity (breaking down of code in meaningful pieces).
+
+- It is always advised to start the name of Custom Hooks with _use_, and create a separate JS file for each custom Hook.
