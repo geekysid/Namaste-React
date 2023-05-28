@@ -1,12 +1,12 @@
 {
-  "name": "07-finding-your-path",
+  "name": "08-lets-get-classy",
   "version": "1.0.0",
   "description": "",
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html",
-    "prod-build": "parcel build index.html"
+    "prod-build": "parcel build index.html",
+    "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "buffer": "^5.7.1",
-    "parcel": "^2.8.3",
+    "parcel": "^2.9.0",
     "process": "^0.11.10"
   }
 }
